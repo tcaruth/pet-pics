@@ -20,7 +20,7 @@ export async function load() {
           "petSlug": ^.slug.current,
           "petType": ^.petType
       }, [])
-    }.images[] | order(upvotes desc)[0...12]`;
+    }.images[][defined(asset)] | order(upvotes desc)[0...12]`;
 
   const images = await client.fetch(query);
   return { images };
