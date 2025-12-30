@@ -1,4 +1,4 @@
-# 🐾 FORBIN FEET
+# 🐾 Pet Pics
 
 [![Svelte v5](https://img.shields.io/badge/Svelte-v5-ff3e00?logo=svelte)](https://svelte.dev)
 [![Sanity](https://img.shields.io/badge/CMS-Sanity-f03e2f?logo=sanity)](https://sanity.io)
@@ -6,7 +6,7 @@
 [![Vite](https://img.shields.io/badge/Build-Vite-646cff?logo=vite)](https://vitejs.dev)
 
 > **"Touch the beans, love the paws."**  
-> A premium pet photo gallery and upvoting platform. Parody for the Forbin Dev Group.
+> A premium pet photo gallery and upvoting platform.
 
 ---
 
@@ -69,7 +69,7 @@ The app will be available at [http://localhost:5173](http://localhost:5173).
 
 ## 🤝 Contributing
 
-This is a parody project for the **Forbin Dev Group**. Feel free to explore the code and suggest improvements to the "bean-touching" experience!
+This is a parody project. Feel free to explore the code and suggest improvements to the "bean-touching" experience!
 
 ---
 
