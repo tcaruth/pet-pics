@@ -41,7 +41,7 @@
 
 <footer>
 	<div class="premium-container">
-		<p>&copy; 2025 ForbinFeet. Parody for the Forbin Dev Group.</p>
+		<p>&copy; 2025 ForbinFeet.</p>
 	</div>
 </footer>
 
