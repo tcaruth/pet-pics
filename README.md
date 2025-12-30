@@ -1,38 +1,76 @@
-# sv
+# 🐾 FORBIN FEET
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+[![Svelte v5](https://img.shields.io/badge/Svelte-v5-ff3e00?logo=svelte)](https://svelte.dev)
+[![Sanity](https://img.shields.io/badge/CMS-Sanity-f03e2f?logo=sanity)](https://sanity.io)
+[![Bun](https://img.shields.io/badge/Runtime-Bun-fbf0df?logo=bun&logoColor=black)](https://bun.sh)
+[![Vite](https://img.shields.io/badge/Build-Vite-646cff?logo=vite)](https://vitejs.dev)
 
-## Creating a project
+> **"Touch the beans, love the paws."**  
+> A premium pet photo gallery and upvoting platform. Parody for the Forbin Dev Group.
 
-If you're seeing this, you've probably already done this step. Congrats!
+---
 
-```sh
-# create a new project in the current directory
-npx sv create
+## ✨ Features
 
-# create a new project in my-app
-npx sv create my-app
+- 🖼️ **Premium Pet Galleries**: High-quality photo galleries powered by Sanity CMS.
+- 🫘 **Touch Beans**: A custom upvoting system where every individual photo can be liked.
+- 🏆 **Top Beans Leaderboard**: Real-time rankings of the most loved pet photos across the platform.
+- 🌓 **Dynamic Themes**: Seamless Dark/Light mode toggle with system preference detection.
+- 🌫️ **Glassmorphic UI**: Modern, premium design with smooth transitions and curated palettes.
+- 🚀 **View Transitions**: Fluid image transitions for a native-app feel using modern CSS.
+
+## 🛠️ Tech Stack
+
+- **Frontend**: [SvelteKit 5](https://svelte.dev) (Runes-powered)
+- **CMS**: [Sanity.io](https://sanity.io) (Structured content)
+- **Styling**: Vanilla CSS (Custom design system)
+- **Runtime & PM**: [Bun](https://bun.sh) (Preferred)
+- **Build Tool**: [Vite](https://vitejs.dev)
+
+## 🚀 Getting Started
+
+### 1. Clone the project
+```bash
+git clone https://github.com/tcaruth/pet-pics.git
+cd pet-pics
 ```
 
-## Developing
+### 2. Configure Environment Variables
+Create a `.env` file in the root directory and add your Sanity credentials:
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+```bash
+PUBLIC_SANITY_PROJECT_ID=your_project_id
+PUBLIC_SANITY_DATASET=your_dataset
+SANITY_WRITE_TOKEN=your_write_token # Used for incrementing upvotes
+```
 
-```sh
+### 3. Install Dependencies
+We prefer using [Bun](https://bun.sh) for faster dependency management and execution.
+
+```bash
+bun install
+```
+
+### 4. Start Development
+```bash
+bun dev
+# or
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
+The app will be available at [http://localhost:5173](http://localhost:5173).
 
-To create a production version of your app:
+## 🗄️ Project Structure
 
-```sh
-npm run build
-```
+- `/src/routes` - SvelteKit pages and API endpoints.
+- `/src/lib` - Shared components and Sanity client configuration.
+- `/forbinfeet` - Sanity Studio schema and configuration.
+- `/static` - Static assets and icons.
 
-You can preview the production build with `npm run preview`.
+## 🤝 Contributing
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+This is a parody project for the **Forbin Dev Group**. Feel free to explore the code and suggest improvements to the "bean-touching" experience!
+
+---
+
+Built with ❤️ and a lot of pet love.
